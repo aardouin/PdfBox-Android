@@ -286,8 +286,8 @@ public class PDFStreamEngine
 			a.concatenate(Matrix.getTranslateInstance((float) -transformedBox.left,
 					(float) -transformedBox.top));
 
-			// Matrix shall be concatenated with A to form a matrix AA that maps from the appearance’s
-			// coordinate system to the annotation’s rectangle in default user space
+			// Matrix shall be concatenated with A to form a matrix AA that maps from the appearanceï¿½s
+			// coordinate system to the annotationï¿½s rectangle in default user space
 			Matrix aa = Matrix.concatenate(matrix, a);
 
 			// make matrix AA the CTM

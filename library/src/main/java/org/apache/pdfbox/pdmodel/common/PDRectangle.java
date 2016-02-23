@@ -42,6 +42,9 @@ public class PDRectangle implements COSObjectable
 	/**  A rectangle the size of A4 Paper. */
 	public static final PDRectangle A4 = new PDRectangle(210 * MM_PER_INCH, 297 * MM_PER_INCH);
 
+	/**  A rectangle the size of A4 Paper. */
+	public static final PDRectangle A4_LANDSCAPE = new PDRectangle(297 * MM_PER_INCH,210 * MM_PER_INCH);
+
 	/** A rectangle the size of A5 Paper. */
 	public static final PDRectangle A5 = new PDRectangle(148 * MM_PER_INCH, 210 * MM_PER_INCH);
 
