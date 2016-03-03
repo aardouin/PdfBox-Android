@@ -18,8 +18,8 @@ import android.graphics.PointF;
  */
 public class PDRectangle implements COSObjectable
 {
-	private static final float POINTS_PER_INCH = 72;
-	private static final float MM_PER_INCH = 1 / (10 * 2.54f) * POINTS_PER_INCH;
+	public static final float POINTS_PER_INCH = 72;
+	public static final float MM_PER_INCH = 1 / (10 * 2.54f) * POINTS_PER_INCH;
 
 	/** A rectangle the size of U.S. Letter, 8.5" x 11". */
 	public static final PDRectangle LETTER = new PDRectangle(8.5f * POINTS_PER_INCH,
